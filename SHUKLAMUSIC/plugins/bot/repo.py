@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """
-❥ ωєℓ¢σмє тσ тєαм ɾιყα 
+❥ ωєℓ¢σмє тσ тєαм Aƚσɱιƈ
 
 ❥ ʀᴇᴘᴏ ᴄʜᴀᴀʜɪʏʀ ᴛᴏ ʙᴏᴛ ᴋᴏ 
 
@@ -26,24 +26,24 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("♡ α∂∂ иσω ♡", url=f"https://t.me/Riya_Xmusic_bot?startgroup=true")
+          InlineKeyboardButton("♡ α∂∂ иσω ♡", url=f"https://t.me/ATOMIC_2_BOT?startgroup=true")
         ],
         [
-          InlineKeyboardButton("ѕυρρσɾƚ", url="https://t.me/Riya_chat_support"),
-          InlineKeyboardButton("⌯꯭ 𝐇꯭ ꯭ꭎ ꯭η ꯭𝗍 𝛆꯭ ʀ ꯭🥂꯭ 𝗫꯭ ꯭ᴅ ", url="https://t.me/ll_hunter_lll"),
+          InlineKeyboardButton("ѕυρρσɾƚ", url="https://t.me/vibes_world01"),
+          InlineKeyboardButton("➥꯭͓𝗗꯭𝞊꯭𝗺꯭𝞂𝝶 𝗞𝝞𝚴𝗚͟🍷⃟𝅽🤍 ", url="https://t.me/unknown_rao_xd"),
           ],
                [
-                InlineKeyboardButton("ᴏᴛʜᴇʀ ʙᴏᴛs", url=f"https://t.me/RIYA_network"),
+                InlineKeyboardButton("ᴏᴛʜᴇʀ ʙᴏᴛs", url=f"https://t.me/vibes_world01"),
 ],
 [
-InlineKeyboardButton("ᴄʜᴇᴄᴋ", url=f"https://t.me/Riya_xmusic_bot"),
+InlineKeyboardButton("ᴄʜᴇᴄᴋ", url=f"https://t.me/ATOMIC_2_BOT"),
 
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://files.catbox.moe/vuas5e.jpg",
+        photo="https://files.catbox.moe/rca1m3.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
